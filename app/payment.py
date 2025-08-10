@@ -23,7 +23,7 @@ def create(amount: str, chat_id: int, payment_description: str):
         },
         'confirmation': {
             'type': 'redirect',
-            'return_url': 'https://t.me/azmatmerion_bot'
+            'return_url': 'https://t.me/life_days_bot'
         },
         'capture': True,
         'metadata': {
